@@ -1,0 +1,392 @@
+@media all and (min-width: 1200px) {
+  #app {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
+@media all and (min-width: 960px) and (max-width: 1199px) {
+  #app {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+}
+
+@media all and (max-width: 599px) {
+  img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+}
+
+@media all and (min-width: 600px) {
+  section {
+    clear: both;
+    display: block;
+  }
+  #event-details-container {
+    clear: none;
+  }
+  img {
+    width: 60%;
+    height: 300px;
+    float: left;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+hr {
+  clear: both;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+section {
+  margin: 20px;
+}
+
+.material-icons {
+  padding-right: 10px;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  min-height: 110vh;
+  background-color: #c9e8fd;
+}
+
+h1,
+h2,
+h3,
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  margin-bottom: 0px;
+}
+
+label {
+  font-size: 18px;
+}
+
+p {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+#guestbook > p {
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  font-size: 14px;
+  padding: 4px 0;
+  background: 0 0;
+  text-align: left;
+  color: inherit;
+}
+
+button.clicked {
+  background-color: rgb(60, 67, 154);
+  border-color: rgb(60, 67, 154);
+  color: white;
+  outline-color: rgb(60, 67, 154);
+}
+
+button,
+button.firebaseui-id-submit.mdl-button--raised.mdl-button--colored {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgb(60, 67, 154);
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: none;
+  color: rgb(60, 67, 154);
+  cursor: default;
+  display: inline-flex;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  height: 36px;
+  justify-content: center;
+  margin: 8px 16px;
+  outline-color: rgb(60, 67, 154);
+  overflow: hidden;
+  padding: 0px 15px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+/*
+ adding Navigation bar
+ */
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+.navbar {
+  transition: all 0.4s;
+}
+
+.navbar .nav-link {
+  color: #fff;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar .navbar-brand {
+  color: #fff;
+}
+
+/* Change navbar styling on scroll */
+.navbar.active {
+  background: #fff;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+  color: #555;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+  color: #555;
+  text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+  color: #555;
+}
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+  .navbar {
+    background: #fff;
+  }
+
+  .navbar .navbar-brand,
+  .navbar .nav-link {
+    color: #555;
+  }
+}
+
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+.navbar {
+  transition: all 0.4s;
+}
+
+.navbar .nav-link {
+  color: #fff;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar .navbar-brand {
+  color: #fff;
+}
+
+/* Change navbar styling on scroll */
+.navbar.active {
+  background: #fff;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+  color: #555;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+  color: #555;
+  text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+  color: #555;
+}
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+  .navbar {
+    background: #fff;
+  }
+
+  .navbar .navbar-brand,
+  .navbar .nav-link {
+    color: #555;
+  }
+}
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+.text-small {
+  font-size: 0.9rem !important;
+}
+
+body {
+  min-height: 110vh;
+  background-color: #c9e8fd;
+}
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+  .navbar {
+    background: #fff;
+  }
+
+  .navbar .navbar-brand,
+  .navbar .nav-link {
+    color: #555;
+  }
+}
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+.text-small {
+  font-size: 0.9rem !important;
+}
+
+body {
+  min-height: 110vh;
+  background-color: #c9e8fd;
+}
+
+/* * ========================================== */
+/* footer css  */
+/* * ========================================== */
+
+.footer {
+  width: 100vw;
+  display: block;
+  overflow: hidden;
+  padding: 70px 0;
+  box-sizing: border-box;
+
+  background-color: #181d1b;
+}
+.inner_footer {
+  display: block;
+  margin: 0 auto;
+  width: 1100px;
+  height: 100%;
+  /* color: rgb(218, 45, 45); */
+}
+
+.inner_footer .logo_container {
+  width: 15%;
+  float: left;
+  height: 100%;
+  display: block;
+}
+.inner_footer .logo_container img {
+  width: 65px;
+  height: auto;
+}
+
+.inner_footer .footer_third {
+  /* width sizing and margin with logo  */
+  /* copied from website  */
+  width: auto;
+  align-items: left;
+  margin-right: 20px;
+  float: left;
+  height: 100%;
+}
+.inner_footer .footer_third:last-child {
+  margin-right: 0;
+}
+
+.inner_footer .footer_third h1 {
+  font-family: "arial";
+  font-size: 22px;
+  color: white;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top:0;
+}
+.inner_footer .footer_third a {
+  font-family: "arial";
+  font-size: 18px;
+  color: white;
+  display: block;
+  font-weight: 200;
+  width: 100%;
+  padding-bottom: 5px;
+}
+
+.inner_footer .footer_third_quotes {
+  float: right;
+  margin-right: 20px;
+   /* border: 1px #c9e8fd; */
+}
+.inner_footer .footer_third_quotes h1 {
+  font-family: "gelasio ",serif;
+  font-style: italic;
+
+  
+
+  color: white;
+  font-size: 30px;
+  /* border: 1px #c9e8fd; */
+}
+
+@media (max-width: 800px) {
+  .footer .inner_footer {
+    width: 90%;
+  }
+  .inner_footer .logo_container,
+  .inner_footer .footer_third {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+/* * ========================================== */
+/* footer end  */
+/* * ========================================== */
